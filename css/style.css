@@ -137,6 +137,8 @@ table {
 }
 
 /*Inicio*/
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -150,7 +152,7 @@ body {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .nav {
@@ -196,10 +198,73 @@ body {
 .conteudo {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     height: 30vh;
     justify-content: flex-start;
     padding: 3%;
     margin-top: 20%;
     margin-left: 2%;
+}
+
+.conteudo h2 {
+    font-family: 'Anton', sans-serif;
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.conteudo p {
+    color: slategrey;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.more {
+    outline: none;
+    border: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: tomato;
+    padding: 2%;
+    width: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pontos {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.pontos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: slategrey;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    float: inline-end;
+}
+
+.pontoad {
+font-size: 20px;
+padding: 3%;
+}
+
+.fa-solid {
+font-size: 25px;
+padding: 2%;
 }
