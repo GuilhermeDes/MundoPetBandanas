@@ -390,6 +390,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 40vh;
     justify-content: center;
     align-items: center;
 }
@@ -424,6 +425,7 @@ footer {
     border: 2px solid transparent;
     background-color: rgb(241, 241, 241);
     text-align: center;
+    color: #3c1781;
 }
 
 .forms label {
@@ -431,7 +433,6 @@ footer {
     font-weight: bold;
     color: #3c1781;
     padding-top: 2%;
-    align-self: flex-start;
 }
 
 .btnenviar {
@@ -459,4 +460,35 @@ footer {
     background-color: rgb(241, 241, 241);
     text-align: center;
     margin-top: 5%;
+    color: #3c1781;
+}
+
+/*HOVERS*/
+#icones:hover {
+    color: gold;
+}
+
+.btnenviar:hover {
+    border: 2px solid #3c1781;
+    background-color: white;
+    color: #3c1781;
+    cursor: pointer;
+}
+
+.inputform:hover {
+    cursor: pointer;
+}
+
+.texarea:hover {
+    cursor: pointer;
+}
+
+.inputform:focus {
+    border: 2px solid #d1d1d1;
+    background-color: white;
+}
+
+.texarea:focus {
+    border: 2px solid #d1d1d1;
+    background-color: white;
 }
