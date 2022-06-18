@@ -153,10 +153,11 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bgmain.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
+    border-bottom: 1px solid #31034C;
 }
 
 .nav {
@@ -190,10 +191,11 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .navbar li:hover {
-    border: 2px solid black;
+    border: 2px solid white;
     background-color: transparent;
     cursor: pointer;
     border-radius: 40px;
@@ -206,21 +208,22 @@ body {
     height: 30vh;
     justify-content: flex-start;
     padding: 3%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 2%;
 }
 
 .conteudo h2 {
     font-family: 'Anton', sans-serif;
-    color: tomato;
+    color: gold;
     font-size: 40px;
     font-weight: bold;
 }
 
 .conteudo p {
-    color: slategrey;
+    color: white;
     padding-top: 2%;
     font-size: 20px;
+    line-height: 1.2;
 }
 
 .more {
@@ -234,7 +237,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .pontos {
@@ -277,9 +280,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 50vh;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    position: relative;
+    border-top: 1px solid #31034C;
 }
 
 .imgsobre {
@@ -349,6 +354,7 @@ body {
     padding-top: 1%;
     position: relative;
     padding-bottom: 2%;
+    border-top: 1px solid rgb(233, 233, 233);
 }
 
 .itens {
@@ -367,6 +373,8 @@ body {
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
     width: 8%;
     height: 22vh;
     border-radius: 10px;
@@ -375,6 +383,8 @@ body {
     background-repeat: no-repeat;
     margin-right: 2%;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -517,4 +527,47 @@ footer {
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+}
+
+.item p {
+    padding-top: 2%;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.ondas {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    display: flex;
+    float: inline-start;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    align-self: flex-start;
+    fill: aqua;
+}
+
+.more:hover {
+    background-color: transparent;
+    border-color: tomato;
+    color: tomato;
+    cursor: pointer;
+}
+
+.imgmain {
+    display: flex;
+    width: 35%;
+    height: 50vh;
+background-image: url(../img/apresentação.jpg);
+    border-radius: 95px 250px 120px 180px / 25px 150px 75px 150px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.apresentar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
 }
