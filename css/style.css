@@ -142,6 +142,10 @@ table {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
@@ -260,11 +264,199 @@ body {
 }
 
 .pontoad {
-font-size: 20px;
-padding: 3%;
+    font-size: 20px;
+    padding: 3%;
 }
 
 .fa-solid {
-font-size: 25px;
-padding: 2%;
+    font-size: 25px;
+    padding: 2%;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.imgsobre {
+    width: 40%;
+    height: 30vh;
+    background-image: url(../img/sobre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /*border-radius: 60% 30% 60% 40% / 60% 20% 80% 40%;*/
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    height: 10vh;
+    background-color: #3c1781;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.contato h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iconredes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#icones {
+    padding-right: 1%;
+    font-size: 30px;
+}
+
+.sobre h1 {
+    font-size: 35px;
+    color: #3c1781;
+}
+
+.sobre p {
+    padding-top: 1%;
+    color: rgb(151, 151, 151);
+    font-size: 18px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8FF;
+    padding-top: 1%;
+    position: relative;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.service h3 {
+    font-size: 35px;
+    color: #3c1781;
+}
+
+.item {
+    width: 8%;
+    height: 22vh;
+    border-radius: 10px;
+    padding-right: 2%;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #120907;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.suporte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.duvida h3 {
+    font-size: 35px;
+    color: peru;
+    font-weight: bold;
+}
+
+.duvida p {
+    font-size: 20px;
+    color: rgb(172, 172, 172);
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.inputform {
+    display: flex;
+    width: 60%;
+    padding: 3%;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.forms label {
+    padding-bottom: 2%;
+    font-weight: bold;
+    color: #3c1781;
+    padding-top: 2%;
+    align-self: flex-start;
+}
+
+.btnenviar {
+    border: 2px solid transparent;
+    outline: none;
+    background-color: #3c1781;
+    padding: 3%;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.texarea {
+    display: flex;
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+    padding: 3%;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    margin-top: 5%;
 }
