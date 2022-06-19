@@ -146,6 +146,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .main {
@@ -570,4 +571,9 @@ background-image: url(../img/apresentação.jpg);
     flex-direction: row;
     width: 100%;
     align-items: center;
+}
+
+.item:hover {
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
 }
